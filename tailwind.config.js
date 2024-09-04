@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    keyframes: {
+      fadeInSlideUp: {
+        '0%': { opacity: 0, transform: 'translateY(20px)' },
+        '100%': { opacity: 1, transform: 'translateY(0)' },
+      },
+    },
+    animation: {
+      fadeInSlideUp: 'fadeInSlideUp 2s ease-out forwards',
+    },
   },
   plugins: [require('daisyui')],
 }
