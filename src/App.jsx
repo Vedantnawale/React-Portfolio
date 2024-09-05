@@ -6,6 +6,7 @@ import Navbar from './component/navbar/Navbar'
 import About from './component/about/About'
 import AboutMe from './component/aboutme/AboutMe'
 import Internships from './component/internships/Internships'
+import Projects from './component/projects/Projects'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
    <About />
    <AboutMe />
    <Internships />
+   <Projects />
    </>
   )
 }
