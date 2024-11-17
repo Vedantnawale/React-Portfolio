@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class', // Use the 'class' strategy for toggling,
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -14,6 +15,10 @@ export default {
     animation: {
       fadeInSlideUp: 'fadeInSlideUp 2s ease-out forwards',
     },
+    extend: {},
   },
   plugins: [require('daisyui')],
+  daisyui: {
+    themes: ['dark', 'night'], // Add "dark" and "night" themes
+  },
 }

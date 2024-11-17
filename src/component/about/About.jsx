@@ -29,7 +29,7 @@ const About = () => {
       <div className="container mx-auto flex flex-col-reverse md:flex-row items-center justify-between">
         
         {/* Left About Section */}
-        <div className="left-about text-center md:text-left md:w-1/2">
+        <div className="left-about text-center md:text-left pl-8 md:w-1/2">
           <h3 className="text-lg font-semibold text-gray-400">Hello, It's Me</h3>
           <h1 className="text-4xl font-bold text-gray-400 mt-2 animate-fadeInSlideUp">
             Vedant A. Nawale!

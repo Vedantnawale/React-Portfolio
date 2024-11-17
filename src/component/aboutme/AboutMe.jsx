@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../../assets/img/om.jpg'; // Adjust the path to your image file
+import img from '../../assets/img/om.jpg'; 
 
 const AboutMe = () => {
     return (
