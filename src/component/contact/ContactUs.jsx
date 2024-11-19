@@ -68,7 +68,7 @@ const ContactUs = () => {
     };
 
     return (
-        <div className='mt-12 px-4'>
+        <div className='mt-12 px-4' id='contact-me'>
             <h1 className="text-4xl font-bold text-center mb-8">
                 Contact <span className="text-indigo-600">Me</span>
             </h1>

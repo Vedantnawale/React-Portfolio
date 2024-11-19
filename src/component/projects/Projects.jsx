@@ -12,7 +12,7 @@ const Projects = () => {
     const [showMoreProjects, setShowMoreProjects] = useState(false);
 
     return (
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4" id="projects">
             <h1 className="text-4xl font-bold text-center mt-10 mb-8">
                 Pro<span className="text-indigo-600">jects</span>
             </h1>

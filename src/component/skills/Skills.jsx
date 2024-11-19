@@ -29,7 +29,7 @@ const skillsData = [
 
 const Skills = () => {
   return (
-    <div className="container mt-5 mx-auto px-4 py-10">
+    <div className="container mt-5 mx-auto px-4 py-10 " id="skills">
       <h1 className="text-4xl font-bold text-center mb-8">
         Ski<span className="text-indigo-600">lls</span>
       </h1>

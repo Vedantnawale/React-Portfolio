@@ -26,15 +26,15 @@ const About = () => {
 
   return (
     <section className="about px-4 py-10" id="about">
-      <div className="container mx-auto flex flex-col-reverse md:flex-row items-center justify-between">
+      <div className="container pt-20 mx-auto flex flex-col-reverse md:flex-row items-center justify-between">
         
         {/* Left About Section */}
-        <div className="left-about text-center md:text-left pl-8 md:w-1/2">
+        <div className="left-about text-center md:text-left px-4 md:px-8 md:w-1/2">
           <h3 className="text-lg font-semibold text-gray-400">Hello, It's Me</h3>
-          <h1 className="text-4xl font-bold text-gray-400 mt-2 animate-fadeInSlideUp">
+          <h1 className="text-3xl md:text-4xl font-bold text-gray-400 mt-2 animate-fadeInSlideUp">
             Vedant A. Nawale!
           </h1>
-          <p className="text-gray-400 mt-4 text-lg">
+          <p className="text-gray-400 mt-4 text-base md:text-lg">
             I'm an aspiring <strong className="text text-indigo-600"></strong>
             <br />
             who is currently working as a <span className="text-indigo-600">Freelancer</span> for <span className="text-indigo-600">National and International Clients.</span>
@@ -78,13 +78,19 @@ const About = () => {
 
           {/* More About Me Button */}
           <a href="#about-me" className="mt-8">
-            <button className="btn btn-primary  hover:shadow-slate-400 hover:shadow-lg shadow-md mt-6">More About Me</button>
+            <button className="btn btn-primary bg-indigo-600 hover:shadow-slate-400 hover:shadow-lg shadow-md text-slate-100 mt-6">
+              More About Me
+            </button>
           </a>
         </div>
 
         {/* Right About Section */}
         <div className="right-about md:w-1/2 flex justify-center mb-8 md:mb-0">
-          <img src={img} alt="MyProfile" className="w-60 md:w-80 rounded-full shadow-slate-400 shadow-lg animate-fadeInSlideUp" />
+          <img 
+            src={img} 
+            alt="MyProfile" 
+            className="w-40 sm:w-52 md:w-80 rounded-full shadow-slate-400 shadow-lg animate-fadeInSlideUp object-cover"
+          />
         </div>
       </div>
     </section>
