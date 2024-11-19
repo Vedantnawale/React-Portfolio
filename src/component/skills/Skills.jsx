@@ -2,7 +2,7 @@ import React from 'react';
 import html from '../../assets/img/html.png';
 import css from '../../assets/img/css.png';
 import js from '../../assets/img/javascript.png';
-import java from '../../assets/img/java.png'; // Assuming you have a Java image
+import java from '../../assets/img/java.png'; 
 import bootstrap from '../../assets/img/bootstrap.png';
 import tailwind from '../../assets/img/tailwindcss.png';
 import react from '../../assets/img/react.png';
