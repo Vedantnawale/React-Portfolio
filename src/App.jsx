@@ -8,6 +8,7 @@ import AboutMe from './component/aboutme/AboutMe'
 import Internships from './component/internships/Internships'
 import Projects from './component/projects/Projects'
 import ContactUs from './component/contact/ContactUs'
+import MoreProject from './component/projects/MoreProject'
 
 function App() {
   const [count, setCount] = useState(0)
