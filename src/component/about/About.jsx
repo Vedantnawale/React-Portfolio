@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
-import { FaLinkedin, FaInstagram, FaGithub, FaFacebook } from "react-icons/fa";
+import { FaLinkedin, FaInstagram, FaGithub, } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 import Typed from 'typed.js';
 import img from '../../assets/img/om.jpg';
 
@@ -44,34 +45,38 @@ const About = () => {
           <ul className="icons text-lg flex justify-center md:justify-start mt-6">
             <li>
               <a
+                title="Linkedin"
                 href="https://www.linkedin.com/in/vedant-nawale-9a31ab215/"
-                className="inline-flex justify-center items-center w-10 h-10 bg-transparent border-2 border-indigo-400 rounded-full text-xl text-indigo-400 m-2.5 shadow-lg shadow-slate-400 hover:shadow-slate-800 hover:shadow-lg animate-fadeInSlideUp"
+                className="inline-flex justify-center items-center w-10 h-10 bg-transparent border-2 border-indigo-400 rounded-full text-xl text-indigo-400 mr-4 shadow-lg shadow-slate-400 hover:shadow-slate-800 hover:shadow-lg animate-fadeInSlideUp"
               >
                 <FaLinkedin />
               </a>
             </li>
             <li>
               <a
+                title="Instagram"
+                href="https://www.instagram.com/vedant_dz/"
+                className="inline-flex justify-center items-center w-10 h-10 bg-transparent border-2 border-indigo-400 rounded-full text-xl text-indigo-400 mr-4 shadow-lg shadow-slate-400 hover:shadow-slate-800 hover:shadow-lg animate-fadeInSlideUp"
+              >
+                <FaInstagram />
+              </a>
+            </li>
+            <li>
+              <a
+                title="GitHub"
                 href="https://github.com/Vedantnawale"
-                className="inline-flex justify-center items-center w-10 h-10 bg-transparent border-2 border-indigo-400 rounded-full text-xl text-indigo-400 m-2.5 shadow-lg shadow-slate-400 hover:shadow-slate-800 hover:shadow-lg animate-fadeInSlideUp"
+                className="inline-flex justify-center items-center w-10 h-10 bg-transparent border-2 border-indigo-400 rounded-full text-xl text-indigo-400 mr-4 shadow-lg shadow-slate-400 hover:shadow-slate-800 hover:shadow-lg animate-fadeInSlideUp"
               >
                 <FaGithub />
               </a>
             </li>
             <li>
               <a
-                href="https://www.facebook.com/vedantashokrao.nawale/"
-                className="inline-flex justify-center items-center w-10 h-10 bg-transparent border-2 border-indigo-400 rounded-full text-xl text-indigo-400 m-2.5 shadow-lg shadow-slate-400 hover:shadow-slate-800 hover:shadow-lg animate-fadeInSlideUp"
+                title="Leetcode"
+                href="https://leetcode.com/u/VedantN/"
+                className="inline-flex justify-center items-center w-10 h-10 bg-transparent border-2 border-indigo-400 rounded-full text-xl text-indigo-400  shadow-lg shadow-slate-400 hover:shadow-slate-800 hover:shadow-lg animate-fadeInSlideUp"
               >
-                <FaFacebook />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.instagram.com/vedant_dz/"
-                className="inline-flex justify-center items-center w-10 h-10 bg-transparent border-2 border-indigo-400 rounded-full text-xl text-indigo-400 m-2.5 shadow-lg shadow-slate-400 hover:shadow-slate-800 hover:shadow-lg animate-fadeInSlideUp"
-              >
-                <FaInstagram />
+                <SiLeetcode />
               </a>
             </li>
           </ul>

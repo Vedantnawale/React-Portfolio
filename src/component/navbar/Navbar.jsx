@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { CiLight } from "react-icons/ci";
 import { FiMenu } from "react-icons/fi";
+import velogo from "../../assets/img/velogo.png"
 
 const Navbar = () => {
     const [theme, setTheme] = useState('night'); // Default to "night"
@@ -42,12 +43,17 @@ const Navbar = () => {
                     <button className="lg:hidden btn btn-ghost" onClick={toggleSidebar}>
                         <FiMenu className="text-2xl" />
                     </button>
-                    <a className="btn btn-ghost text-xl">daisyUI</a>
+
+                        <img
+                            src={velogo}
+                            alt="Logo"
+                            className="h-8 w-auto"
+                        />
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         <li>
-                            <button onClick={() => scrollToSection('about')} className="btn text-base btn-link no-underline hover:no-underline hover:text-slate-100">
+                            <button onClick={() => scrollToSection('about')} className="btn text-base  btn-link no-underline hover:no-underline hover:text-slate-100">
                                 Home
                             </button>
                         </li>
