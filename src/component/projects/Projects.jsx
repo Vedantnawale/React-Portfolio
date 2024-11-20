@@ -137,7 +137,7 @@ const Projects = () => {
             <div className="flex justify-center mt-4">
                 <button
                     onClick={() => setShowMoreProjects(!showMoreProjects)}
-                    className="btn btn-primary text-slate-100 hover:shadow-slate-400 hover:shadow-lg shadow-md mt-6"
+                    className="btn bg-indigo-600 btn-primary text-slate-100 hover:shadow-slate-400 hover:shadow-lg shadow-md mt-6"
                 >
                     {showMoreProjects ? 'Show Less...' : 'More Projects...'}
                 </button>

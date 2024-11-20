@@ -46,6 +46,7 @@ const About = () => {
             <li>
               <a
                 title="Linkedin"
+                target='_blank'
                 href="https://www.linkedin.com/in/vedant-nawale-9a31ab215/"
                 className="inline-flex justify-center items-center w-10 h-10 bg-transparent border-2 border-indigo-400 rounded-full text-xl text-indigo-400 mr-4 shadow-lg shadow-slate-400 hover:shadow-slate-800 hover:shadow-lg animate-fadeInSlideUp"
               >
@@ -55,6 +56,7 @@ const About = () => {
             <li>
               <a
                 title="Instagram"
+                target='_blank'
                 href="https://www.instagram.com/vedant_dz/"
                 className="inline-flex justify-center items-center w-10 h-10 bg-transparent border-2 border-indigo-400 rounded-full text-xl text-indigo-400 mr-4 shadow-lg shadow-slate-400 hover:shadow-slate-800 hover:shadow-lg animate-fadeInSlideUp"
               >
@@ -64,6 +66,7 @@ const About = () => {
             <li>
               <a
                 title="GitHub"
+                target='_blank'
                 href="https://github.com/Vedantnawale"
                 className="inline-flex justify-center items-center w-10 h-10 bg-transparent border-2 border-indigo-400 rounded-full text-xl text-indigo-400 mr-4 shadow-lg shadow-slate-400 hover:shadow-slate-800 hover:shadow-lg animate-fadeInSlideUp"
               >
@@ -73,6 +76,7 @@ const About = () => {
             <li>
               <a
                 title="Leetcode"
+                target='_blank'
                 href="https://leetcode.com/u/VedantN/"
                 className="inline-flex justify-center items-center w-10 h-10 bg-transparent border-2 border-indigo-400 rounded-full text-xl text-indigo-400  shadow-lg shadow-slate-400 hover:shadow-slate-800 hover:shadow-lg animate-fadeInSlideUp"
               >
