@@ -27,7 +27,7 @@ function App() {
           <div className="flex items-center justify-center h-screen bg-base-100">
               <div className="flex flex-col items-center">
                   <span className="loading loading-spinner loading-lg text-indigo-600"></span>
-                  <p className="mt-4 text-lg font-medium text-gray-700">You are entering the Vedant's Portfolio 😎....</p>
+                  <p className="mt-4 text-lg font-medium text-gray-700">You Are Entering The Vedant's Portfolio 😎....</p>
               </div>
           </div>
       );
