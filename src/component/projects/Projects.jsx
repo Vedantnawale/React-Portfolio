@@ -63,6 +63,26 @@ const Projects = () => {
 
                 <div className="card bg-base-100 shadow-xl">
                     <figure>
+                        <img className="w-full h-48 object-cover" src={pokedex} alt="Pokedex" />
+                    </figure>
+                    <div className="card-body">
+                        <div className="flex gap-2">
+                            <h2 className="card-title text-slate-100">Pokedex</h2>
+                            <a href="https://pokedex-sigma-taupe.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <button className="badge badge-ghost">
+                                <FaExternalLinkAlt />
+                            </button>
+                            </a>
+                        </div>
+                        <div className="card-actions mt-2 justify-start">
+                            <div className="badge badge-primary text-slate-100">ReactJS</div>
+                            <div className="badge badge-primary text-slate-100">Javascript</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="card bg-base-100 shadow-xl">
+                    <figure>
                         <img className="w-full h-48 object-cover" src={blog} alt="Blog" />
                     </figure>
                     <div className="card-body">
@@ -124,25 +144,6 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className="card bg-base-100 shadow-xl">
-                    <figure>
-                        <img className="w-full h-48 object-cover" src={pokedex} alt="Pokedex" />
-                    </figure>
-                    <div className="card-body">
-                        <div className="flex gap-2">
-                            <h2 className="card-title text-slate-100">Pokedex</h2>
-                            <a href="https://github.com/Vedantnawale/Pokedex" target="_blank" rel="noopener noreferrer">
-                            <button className="badge badge-ghost">
-                                <FaExternalLinkAlt />
-                            </button>
-                            </a>
-                        </div>
-                        <div className="card-actions mt-2 justify-start">
-                            <div className="badge badge-primary text-slate-100">ReactJS</div>
-                            <div className="badge badge-primary text-slate-100">Javascript</div>
-                        </div>
-                    </div>
-                </div>
             </div>
 
             {/* More Projects Button */}
