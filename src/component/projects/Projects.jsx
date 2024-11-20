@@ -25,9 +25,11 @@ const Projects = () => {
                     <div className="card-body">
                         <div className="flex gap-2">
                             <h2 className="card-title text-slate-100">Omgram</h2>
-                            <button className="badge badge-ghost">
-                                <FaExternalLinkAlt />
-                            </button>
+                            <a href="https://omgram.vercel.app/sign-in" target="_blank" rel="noopener noreferrer">
+                                <button className="badge badge-ghost">
+                                    <FaExternalLinkAlt />
+                                </button>
+                            </a>
                         </div>
                         <div className="card-actions mt-2 justify-start">
                             <div className="badge badge-primary text-slate-100">ReactJS</div>
@@ -45,9 +47,11 @@ const Projects = () => {
                     <div className="card-body">
                         <div className="flex gap-2">
                             <h2 className="card-title text-slate-100">StudioBook</h2>
+                            <a href="https://github.com/Vedantnawale/StudioBook" target="_blank" rel="noopener noreferrer">
                             <button className="badge badge-ghost">
                                 <FaExternalLinkAlt />
                             </button>
+                            </a>
                         </div>
                         <div className="card-actions mt-2 justify-start">
                             <div className="badge badge-primary text-slate-100">ReactJS</div>
@@ -64,9 +68,11 @@ const Projects = () => {
                     <div className="card-body">
                         <div className="flex gap-2">
                             <h2 className="card-title text-slate-100">Vedant's Blog</h2>
+                            <a href="https://blog-react-js-sigma.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <button className="badge badge-ghost">
                                 <FaExternalLinkAlt />
                             </button>
+                            </a>
                         </div>
                         <div className="card-actions mt-2 justify-start">
                             <div className="badge badge-primary text-slate-100">ReactJS</div>
@@ -83,9 +89,11 @@ const Projects = () => {
                     <div className="card-body">
                         <div className="flex gap-2">
                             <h2 className="card-title text-slate-100">Ecommerce Website</h2>
+                            <a href="https://github.com/Vedantnawale/Ecommerce" target="_blank" rel="noopener noreferrer">
                             <button className="badge badge-ghost">
                                 <FaExternalLinkAlt />
                             </button>
+                            </a>
                         </div>
                         <div className="card-actions mt-2 justify-start">
                             <div className="badge badge-primary text-slate-100">HTML</div>
@@ -102,9 +110,11 @@ const Projects = () => {
                     <div className="card-body">
                         <div className="flex gap-2">
                             <h2 className="card-title text-slate-100">Lokation</h2>
+                            <a href="https://github.com/Vedantnawale/Lok-ation" target="_blank" rel="noopener noreferrer">
                             <button className="badge badge-ghost">
                                 <FaExternalLinkAlt />
                             </button>
+                            </a>
                         </div>
                         <div className="card-actions mt-2 justify-start">
                             <div className="badge badge-primary text-slate-100">HTML</div>
@@ -121,9 +131,11 @@ const Projects = () => {
                     <div className="card-body">
                         <div className="flex gap-2">
                             <h2 className="card-title text-slate-100">Pokedex</h2>
+                            <a href="https://github.com/Vedantnawale/Pokedex" target="_blank" rel="noopener noreferrer">
                             <button className="badge badge-ghost">
                                 <FaExternalLinkAlt />
                             </button>
+                            </a>
                         </div>
                         <div className="card-actions mt-2 justify-start">
                             <div className="badge badge-primary text-slate-100">ReactJS</div>

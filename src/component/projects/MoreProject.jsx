@@ -5,11 +5,6 @@ import {images} from "../../assets/img/index.js"
 const MoreProject = () => {
   const projects = [
     {
-      imgSrc: images.blog,
-      title: "AppBlog",
-      link: "https://blog-react-js-vedant-nawales-projects.vercel.app/",
-    },
-    {
       imgSrc: images.todoRedux,
       title: "Todo ReduxToolKit",
       link: "https://to-do-rdk-vedant-nawales-projects.vercel.app/",
@@ -24,11 +19,7 @@ const MoreProject = () => {
       title: "Todo Basic",
       link: "https://github.com/Vedantnawale/OIBGRIP_/tree/master",
     },
-    {
-      imgSrc: images.bgchanger,
-      title: "Background Changer",
-      link: "https://bg-changer-vedant-nawales-projects.vercel.app/",
-    },
+    
     {
       imgSrc: images.todoLocal,
       title: "Todo Localstorage",
@@ -42,12 +33,12 @@ const MoreProject = () => {
     {
       imgSrc: images.passWordgen,
       title: "Password Generator",
-      link: "https://password-generator-vedant-nawales-projects.vercel.app/",
+      link: "https://password-genrator-delta.vercel.app/",
     },
     {
       imgSrc: images.currency,
       title: "Currency Convertor",
-      link: "https://currency-converter-vedant-nawales-projects.vercel.app/",
+      link: "https://currency-convertor-ecru.vercel.app/",
     },
     {
       imgSrc: images.counter,
@@ -60,6 +51,11 @@ const MoreProject = () => {
       link: "https://github.com/Vedantnawale/Javascript/blob/master/03_basic_projects_js/05_KeyboardCheck.html",
     },
     {
+      imgSrc: images.bgchanger,
+      title: "Background Changer",
+      link: "https://bg-changer-vedant-nawales-projects.vercel.app/",
+    },
+    {
       imgSrc: images.unlimitedColor,
       title: "Unlimited Color",
       link: "https://github.com/Vedantnawale/Javascript/blob/master/03_basic_projects_js/04_UnlimitedColor.html",
@@ -67,7 +63,7 @@ const MoreProject = () => {
     {
       imgSrc: images.program,
       title: "Programming Competition",
-      link: "https://github.com/Vedantnawale/ProgrammingComp",
+      link: "https://programming-comp.vercel.app/",
     },
     {
       imgSrc: images.robo,

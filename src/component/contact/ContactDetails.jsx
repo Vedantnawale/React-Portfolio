@@ -8,9 +8,9 @@ const contacts = [
 	},
 	{
 		id: 2,
-		name: 'vedantnawale0@gmail.com',
+		name: <a href="mailto:vedantnawale0@gmail.com" target="_blank" rel="noopener noreferrer">vedantnawale0@gmail.com</a>,
 		icon: <FiMail />,
-	},
+	  },
 	{
 		id: 3,
 		name: '7620005945',

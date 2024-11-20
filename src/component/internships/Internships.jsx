@@ -9,7 +9,7 @@ const Internships = () => {
       <h1 className="text-4xl font-bold text-center mt-10 mb-8">
         Intern<span className="text-indigo-600">Ships</span>
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 ml-2">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 ml-2">
         <div className="card bg-base-100 shadow-xl">
           <figure>
             <img
@@ -40,8 +40,8 @@ const Internships = () => {
           <figure>
             <img
               className="w-full h-48 object-cover"
-              src={physicsWalllah}
-              alt="Shoes"
+              src={skillForge}
+              alt="pw"
             />
           </figure>
           <div className="card-body">
@@ -62,7 +62,7 @@ const Internships = () => {
             </div>
           </div>
         </div>
-        <div className="card bg-base-100 shadow-xl">
+        {/* <div className="card bg-base-100 shadow-xl">
           <figure>
             <img
               className="w-full h-48 object-cover"
@@ -87,7 +87,7 @@ const Internships = () => {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
