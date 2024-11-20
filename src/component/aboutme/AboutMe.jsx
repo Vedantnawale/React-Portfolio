@@ -1,5 +1,6 @@
 import React from 'react';
 import img from '../../assets/img/om.jpg'; 
+import resume from '../../assets/img/Vedant_A_Nawale_Main_Resume.pdf'
 
 const AboutMe = () => {
     return (
@@ -32,7 +33,7 @@ const AboutMe = () => {
                         I also freelance on various platforms as a side hustle, gaining practical experience
                         and honing my skills.
                     </p>
-                    <a href="Vedant_A_Nawale_Resume_Main.pdf" download>
+                    <a href={resume} download>
                         <button className="btn-2 bg-indigo-600 text-white py-2 px-4 rounded hover:bg-indigo-700 transition duration-300">
                             Check My CV
                         </button>
