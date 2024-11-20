@@ -35,7 +35,7 @@ const AboutMe = () => {
                     </p>
                     <a href={resume} download>
                         <button className="btn-2 bg-indigo-600 text-white py-2 px-4 rounded hover:bg-indigo-700 transition duration-300">
-                            Check My CV
+                            Check My Resume
                         </button>
                     </a>
                 </div>
