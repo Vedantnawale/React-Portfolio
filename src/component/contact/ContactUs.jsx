@@ -11,9 +11,9 @@ const ContactUs = () => {
     const [alertMessage, setAlertMessage] = useState(null); // State for alert message
     const [alertType, setAlertType] = useState(null); // State for alert type (success/error)
 
-    const emailService = String(import.meta.env.VITE_EMAILJS_SERVICE_ID) || "service_kgci9y2";
-    const emailTemp = String(import.meta.env.VITE_EMAILJS_TEMPLATE_ID) || "template_14pn95g";
-    const emailKey = String(import.meta.env.VITE_EMAILJS_PUBLIC_KEY) || "_qH2oLK0IsFV3we-f";
+    const emailService = import.meta.env.VITE_EMAILJS_SERVICE_ID || "service_kgci9y2";
+    const emailTemp = import.meta.env.VITE_EMAILJS_TEMPLATE_ID || "template_14pn95g";
+    const emailKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || "_qH2oLK0IsFV3we-f";
 
 
     const validateForm = () => {
